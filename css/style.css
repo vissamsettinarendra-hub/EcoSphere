@@ -1,22 +1,12 @@
-/*=========================================
-  Google Font
-=========================================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-/*=========================================
-  Global Styles
-=========================================*/
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
 html{
     scroll-behavior:smooth;
 }
-
 body{
     font-family:'Poppins',sans-serif;
     background:#f8faf9;
@@ -24,25 +14,20 @@ body{
     line-height:1.7;
     overflow-x:hidden;
 }
-
 a{
     text-decoration:none;
     transition:.3s;
 }
-
 img{
     max-width:100%;
     display:block;
 }
-
 section{
     padding:90px 0;
 }
-
 .container{
     max-width:1200px;
 }
-
 .section-tag{
     display:inline-block;
     padding:8px 18px;
@@ -54,70 +39,54 @@ section{
     letter-spacing:1px;
     margin-bottom:15px;
 }
-
 .section-title{
     font-size:2.8rem;
     font-weight:700;
     margin-bottom:20px;
 }
-
 .section-text{
     max-width:700px;
     margin:auto;
     color:#666;
 }
-
 .btn{
     transition:.4s;
 }
-
 .btn-success{
     border-radius:40px;
     padding:12px 32px;
     font-weight:600;
 }
-
 .btn-success:hover{
     transform:translateY(-4px);
     box-shadow:0 10px 25px rgba(25,135,84,.3);
 }
-
 .btn-outline-success{
     border-radius:40px;
     padding:12px 32px;
     font-weight:600;
 }
-
 .btn-outline-success:hover{
     transform:translateY(-4px);
 }
-
-/*=========================================
- Navbar
-=========================================*/
-
 .glass-navbar{
     background:rgba(16,24,32,.75);
     backdrop-filter:blur(12px);
     transition:.4s;
     padding:15px 0;
 }
-
 .navbar-brand{
     font-size:1.7rem;
 }
-
 .navbar-brand i{
     margin-right:8px;
 }
-
 .nav-link{
     color:#fff!important;
     margin-left:18px;
     font-weight:500;
     position:relative;
 }
-
 .nav-link::after{
     content:"";
     position:absolute;
@@ -128,23 +97,15 @@ section{
     bottom:-4px;
     transition:.4s;
 }
-
 .nav-link:hover::after{
     width:100%;
 }
-
 .nav-link:hover{
     color:#20c997!important;
 }
-
 .navbar .btn{
     border-radius:30px;
 }
-
-/*=========================================
- Hero
-=========================================*/
-
 .hero{
     min-height:100vh;
     background:linear-gradient(135deg,#eefdf5,#ffffff);
@@ -153,7 +114,6 @@ section{
     position:relative;
     overflow:hidden;
 }
-
 .hero::before{
     content:"";
     position:absolute;
@@ -165,7 +125,6 @@ section{
     right:-200px;
     z-index:0;
 }
-
 .hero::after{
     content:"";
     position:absolute;
@@ -176,12 +135,10 @@ section{
     bottom:-180px;
     left:-150px;
 }
-
 .hero .container{
     position:relative;
     z-index:2;
 }
-
 .hero-tag{
     display:inline-block;
     background:#dff9ea;
@@ -190,28 +147,23 @@ section{
     border-radius:40px;
     font-weight:600;
 }
-
 .hero-title{
     font-size:3.7rem;
     font-weight:800;
     line-height:1.25;
 }
-
 .hero-text{
     margin-top:25px;
     color:#666;
     font-size:1.1rem;
 }
-
 .hero-image-wrapper{
     position:relative;
 }
-
 .hero-image{
-    border-radius:30px;
+        border-radius:30px;
     box-shadow:0 25px 60px rgba(0,0,0,.12);
 }
-
 .floating-card{
     position:absolute;
     background:#fff;
@@ -223,21 +175,17 @@ section{
     font-weight:600;
     animation:float 4s ease-in-out infinite;
 }
-
 .card-one{
     top:10%;
     left:-40px;
 }
-
 .card-two{
     bottom:15%;
     right:-40px;
 }
-
 .floating-card i{
     font-size:1.6rem;
 }
-
 .stat-box{
     text-align:center;
     background:#fff;
@@ -246,70 +194,49 @@ section{
     box-shadow:0 15px 40px rgba(0,0,0,.08);
     transition:.4s;
 }
-
 .stat-box:hover{
     transform:translateY(-8px);
 }
-
 .stat-box h3{
     color:#198754;
     font-size:2rem;
     font-weight:700;
 }
-
 .stat-box p{
     margin:0;
     color:#666;
 }
 
 @keyframes float{
-
 0%{
 transform:translateY(0);
 }
-
 50%{
 transform:translateY(-12px);
 }
-
 100%{
 transform:translateY(0);
 }
-
 }
-
-/*=========================================
- Utility
-=========================================*/
-
 .shadow-hover{
     transition:.4s;
 }
-
 .shadow-hover:hover{
     transform:translateY(-8px);
     box-shadow:0 25px 40px rgba(0,0,0,.15);
 }
-
 .rounded-20{
     border-radius:20px;
 }
-
 .rounded-30{
     border-radius:30px;
 }
-
 .text-green{
     color:#198754;
 }
-
 .bg-light-green{
     background:#effff5;
 }
-/*=========================================
- FEATURES
-=========================================*/
-
 .feature-card{
     background:#fff;
     padding:40px 30px;
@@ -319,12 +246,10 @@ transform:translateY(0);
     box-shadow:0 10px 35px rgba(0,0,0,.08);
     height:100%;
 }
-
 .feature-card:hover{
     transform:translateY(-12px);
     box-shadow:0 25px 45px rgba(0,0,0,.15);
 }
-
 .feature-icon{
     width:80px;
     height:80px;
@@ -338,32 +263,23 @@ transform:translateY(0);
     color:#198754;
     transition:.4s;
 }
-
 .feature-card:hover .feature-icon{
     background:#198754;
     color:#fff;
     transform:rotate(360deg);
 }
-
 .feature-card h4{
     font-size:1.4rem;
     font-weight:700;
     margin-bottom:15px;
 }
-
 .feature-card p{
     color:#666;
     margin-bottom:0;
 }
-
-/*=========================================
- PROJECTS
-=========================================*/
-
 .projects{
     background:#f8faf9;
 }
-
 .project-card{
     background:#fff;
     border-radius:20px;
@@ -372,66 +288,50 @@ transform:translateY(0);
     box-shadow:0 10px 30px rgba(0,0,0,.08);
     height:100%;
 }
-
 .project-card:hover{
     transform:translateY(-10px);
     box-shadow:0 20px 45px rgba(0,0,0,.18);
 }
-
 .project-card img{
     width:100%;
     height:250px;
     object-fit:cover;
     transition:.5s;
 }
-
 .project-card:hover img{
     transform:scale(1.08);
 }
-
 .project-content{
     padding:25px;
 }
-
 .project-content h4{
     margin:15px 0;
     font-weight:700;
 }
-
 .project-content p{
     color:#666;
 }
-
 .project-link{
     color:#198754;
     font-weight:600;
 }
-
 .project-link i{
     margin-left:6px;
     transition:.3s;
 }
-
 .project-link:hover i{
     margin-left:12px;
 }
-
 .badge{
     padding:8px 14px;
     border-radius:20px;
     font-size:.8rem;
 }
-
-/*=========================================
- IMPACT SECTION
-=========================================*/
-
 .impact-section{
     background:linear-gradient(135deg,#198754,#20c997);
     color:#fff;
     padding:80px 0;
 }
-
 .impact-card{
     background:rgba(255,255,255,.12);
     backdrop-filter:blur(10px);
@@ -441,68 +341,48 @@ transform:translateY(0);
     transition:.4s;
     border:1px solid rgba(255,255,255,.2);
 }
-
 .impact-card:hover{
     transform:translateY(-10px);
     background:rgba(255,255,255,.2);
 }
-
 .impact-card i{
     font-size:2.8rem;
     margin-bottom:20px;
 }
-
 .impact-card h2{
     font-size:2.5rem;
     font-weight:700;
     margin-bottom:10px;
 }
-
 .impact-card p{
     margin:0;
     font-size:1rem;
 }
-
-/*=========================================
- COMMON CARD EFFECTS
-=========================================*/
-
 .card{
     transition:.4s;
 }
-
 .card:hover{
     transform:translateY(-8px);
     box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
-
 .card-body{
     padding:30px;
 }
-
 .card h4{
     font-weight:700;
 }
-
 .card p{
     color:#666;
 }
-
 .bg-light{
     background:#f8faf9 !important;
 }
-
 .text-muted{
     color:#666 !important;
 }
-/*=========================================
- TIMELINE
-=========================================*/
-
 #timeline{
     background:#f8faf9;
 }
-
 #timeline .card{
     border:none;
     border-radius:20px;
@@ -510,34 +390,24 @@ transform:translateY(0);
     transition:.4s;
     box-shadow:0 12px 30px rgba(0,0,0,.08);
 }
-
 #timeline .card:hover{
     transform:translateY(-10px);
     box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
-
 #timeline h5{
     font-size:1rem;
     margin-bottom:10px;
 }
-
 #timeline h4{
     font-weight:700;
     margin-bottom:15px;
 }
-
-/*=========================================
- TESTIMONIALS
-=========================================*/
-
 #testimonials{
     background:#ffffff;
 }
-
 .carousel-item{
     padding:50px 15%;
 }
-
 .carousel-item img{
     width:120px;
     height:120px;
@@ -546,29 +416,21 @@ transform:translateY(0);
     border:5px solid #198754;
     margin:auto;
 }
-
 .carousel-item h5{
     margin-top:20px;
     font-weight:700;
 }
-
 .carousel-item p{
     color:#666;
     font-size:1rem;
     max-width:700px;
     margin:auto;
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
     padding:18px;
     border-radius:50%;
 }
-
-/*=========================================
- FAQ
-=========================================*/
-
 .accordion-item{
     border:none;
     margin-bottom:18px;
@@ -576,250 +438,172 @@ transform:translateY(0);
     overflow:hidden;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
 }
-
 .accordion-button{
     font-weight:600;
     padding:20px;
 }
-
 .accordion-button:not(.collapsed){
     background:#198754;
     color:#fff;
 }
-
 .accordion-button:focus{
     box-shadow:none;
 }
-
 .accordion-body{
     color:#666;
     line-height:1.8;
 }
-
-/*=========================================
- NEWSLETTER
-=========================================*/
-
 .bg-primary{
     background:linear-gradient(135deg,#198754,#20c997)!important;
 }
-
 .bg-primary h2{
     font-size:2.2rem;
     font-weight:700;
 }
-
 .bg-primary p{
     opacity:.9;
 }
-
 .bg-primary input{
     height:55px;
     border-radius:35px;
     border:none;
     padding-left:20px;
 }
-
 .bg-primary button{
     border-radius:35px;
     padding:0 30px;
     font-weight:600;
 }
-
 .bg-primary button:hover{
     transform:translateY(-3px);
 }
-
-/*=========================================
- FOOTER
-=========================================*/
-
 footer{
     background:#101820;
 }
-
 footer h3,
 footer h5{
     margin-bottom:20px;
     font-weight:700;
 }
-
 footer p,
 footer li{
     color:#ccc;
     margin-bottom:10px;
 }
-
 footer ul{
     padding-left:0;
     list-style:none;
 }
-
 footer a{
     color:#ccc;
     transition:.3s;
 }
-
 footer a:hover{
     color:#20c997;
     padding-left:6px;
 }
-
 footer hr{
     opacity:.2;
 }
-
-/*=========================================
- RESPONSIVE
-=========================================*/
-
 @media(max-width:992px){
-
 .hero-title{
     font-size:2.8rem;
 }
-
 .hero{
     text-align:center;
 }
-
 .hero-image-wrapper{
     margin-top:50px;
 }
-
 .card-one,
 .card-two{
     position:static;
     margin:20px auto;
 }
-
 .section-title{
     font-size:2.2rem;
 }
-
 }
-
 @media(max-width:768px){
-
 .hero-title{
     font-size:2.2rem;
 }
-
 .section-title{
     font-size:1.9rem;
 }
-
 .hero-text{
     font-size:1rem;
 }
-
 .carousel-item{
     padding:40px 20px;
 }
-
 .feature-card,
 .project-card,
 .impact-card{
     margin-bottom:25px;
 }
-
 .bg-primary form{
     flex-direction:column;
 }
-
 .bg-primary input{
     margin-bottom:15px;
 }
-
 .bg-primary button{
     width:100%;
     height:55px;
 }
-
 footer{
     text-align:center;
 }
-
 }
-
 @media(max-width:576px){
-
 .hero{
     padding-top:100px;
 }
-
 .hero-title{
     font-size:1.8rem;
 }
-
 .section-title{
     font-size:1.6rem;
 }
-
 .stat-box{
     margin-bottom:20px;
 }
-
 .feature-icon{
     width:70px;
     height:70px;
     font-size:1.7rem;
 }
-
 .project-card img{
     height:220px;
 }
-
 .carousel-item img{
     width:100px;
     height:100px;
 }
 
 }
-
-/*=========================================
- SCROLLBAR
-=========================================*/
-
 ::-webkit-scrollbar{
     width:10px;
 }
-
 ::-webkit-scrollbar-thumb{
     background:#198754;
     border-radius:10px;
 }
-
 ::-webkit-scrollbar-track{
     background:#f2f2f2;
 }
-
-/*=========================================
- SELECTION
-=========================================*/
-
 ::selection{
     background:#198754;
     color:#fff;
 }
-
-/*=========================================
- ABOUT / SERVICES / CONTACT PAGE HERO
-=========================================*/
-
-
 .about-hero,
 .services-hero,
 .contact-hero{
-
     min-height:100vh;
-
     display:flex;
-
     align-items:center;
-
     position:relative;
-
     background:
     linear-gradient(
         rgba(0,0,0,.55),
@@ -833,23 +617,12 @@ footer{
 
 }
 
-
-
 .about-hero h1,
 .services-hero h1,
 .contact-hero h1{
 
     letter-spacing:1px;
-
 }
-
-
-
-/*=========================================
- ABOUT PAGE
-=========================================*/
-
-
 .list-group-item{
 
     padding:15px;
@@ -861,273 +634,96 @@ footer{
     border:none;
 
 }
-
-
-
 .list-group-item::before{
 
     color:#198754;
-
 }
-
-
-
 .feature-card h3{
-
     margin-bottom:15px;
-
 }
-
-
-
-
-/*=========================================
- TEAM SECTION
-=========================================*/
-
-
 .project-card.text-center img{
-
     height:280px;
-
     object-fit:cover;
-
 }
-
-
-
 .project-card.text-center .project-content{
-
     padding:25px;
-
 }
-
-
-
-
-
-/*=========================================
- CONTACT FORM
-=========================================*/
-
-
 .form-control{
-
     padding:15px 18px;
-
     border-radius:12px;
-
     border:1px solid #ddd;
-
 }
-
-
-
 .form-control:focus{
-
     border-color:#198754;
-
     box-shadow:0 0 0 .2rem rgba(25,135,84,.15);
-
 }
-
-
-
 textarea.form-control{
-
     resize:none;
-
 }
-
-
-
-
-
-/*=========================================
- GOOGLE MAP
-=========================================*/
-
-
 iframe{
-
     width:100%;
-
     min-height:400px;
-
 }
-
-
-
-
-
-
-/*=========================================
- SERVICES PAGE
-=========================================*/
-
-
 .services-hero{
-
     background:
     linear-gradient(
         rgba(0,0,0,.6),
         rgba(0,0,0,.6)
     ),
     url("../images/services-bg.jpg");
-
     background-size:cover;
-
     background-position:center;
-
 }
-
-
-
-
-
-/*=========================================
- CONTACT HERO
-=========================================*/
-
-
 .contact-hero{
-
     background:
     linear-gradient(
         rgba(0,0,0,.6),
         rgba(0,0,0,.6)
     ),
     url("../images/contact-bg.jpg");
-
     background-size:cover;
-
     background-position:center;
-
 }
-
-
-
-
-
-/*=========================================
- ABOUT HERO
-=========================================*/
-
-
 .about-hero{
-
     background:
     linear-gradient(
         rgba(0,0,0,.55),
         rgba(0,0,0,.55)
     ),
     url("../images/about-bg.jpg");
-
     background-size:cover;
-
     background-position:center;
-
 }
-
-
-
-
-
-/*=========================================
- SOCIAL ICONS FOOTER
-=========================================*/
-
-
 footer .fs-5{
-
     width:40px;
-
     height:40px;
-
     display:inline-flex;
-
     align-items:center;
-
     justify-content:center;
-
     background:#198754;
-
     border-radius:50%;
-
 }
-
-
-
 footer .fs-5:hover{
-
     background:#20c997;
-
     transform:translateY(-5px);
-
 }
-
-
-
-
-
-
-
-/*=========================================
- IMAGE HOVER
-=========================================*/
-
-
 .img-fluid{
-
     transition:.5s;
-
 }
-
-
-
 .img-fluid:hover{
-
     transform:scale(1.03);
-
 }
-
-
-
-
-
-/*=========================================
- MOBILE FIXES
-=========================================*/
-
-
 @media(max-width:768px){
-
-
     .about-hero,
     .services-hero,
     .contact-hero{
-
         min-height:80vh;
-
         text-align:center;
-
     }
-
-
-
     .project-card.text-center img{
-
         height:240px;
-
     }
-
-
-
     iframe{
-
         min-height:300px;
-
     }
-
-
 }

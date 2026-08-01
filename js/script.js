@@ -185,4 +185,4 @@ document.body.classList.add(
 });
 console.log(
 "🌱 EcoSphere Website Loaded Successfully"
-);
+) ;
